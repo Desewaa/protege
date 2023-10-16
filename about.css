@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(46, 30, 30); 
+    flex-direction: column;   
+    font-family:;
+    font-weight: lighter;
+    
+}
+.Abt{
+    margin: 90px;
+   
+}
+.Abt h4{
+    color:  rgb(196, 161, 45);
+    letter-spacing: 5px;
+   
+}
+.Abt h1{
+    font-size: 35px;
+    color:  #fff;
+    font-size: 35px;
+    padding-top: 20px;
+
+   
+}
+p{
+    color: rgb(165, 163, 163);
+    padding-top: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

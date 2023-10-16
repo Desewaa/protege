@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 13, 13);
+}
+.left-side{
+    /* width: 303px; */
+    height: 100vh;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    flex-basis: 22%;
+    background: rgb(20, 13, 13);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+    
+}
+
+.navlinks{
+    margin-top: 70px;
+}
+
+.navlinks ul li a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    /* margin-bottom: 5px; */
+    /* background-color: red; */
+    color: grey;
+    border-bottom: 1px solid rgb(214, 200, 200);
+   
+}
+.left-side .logo h1{
+    /* padding: 10px; */
+    font-size: 45px;
+    font-weight: lighter;
+    color: gold;
+    padding: 10px 0px;
+}
+.left-side .logo h6{
+    letter-spacing: 12px;
+    color: grey;
+}
+.icons{
+    color: gray;
+    position: absolute;
+    bottom: 0;
+}
+/* RIGHT SIDE */
+.right-side{
+    flex-basis: 78%;
+}
+.right-side .residential{
+    background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(bg2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.residential{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+.residential h1{
+    font-size: 50px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.residential h5{
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.residential h2 a{
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    text-decoration: none;
+    
+}
+.right-side .direct{
+background-color:  gold;
+padding: 10px 40px;
+margin-top: 80px;
+}
+.right-side .srv{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;   
+}
+.right-side .srv h4{
+    letter-spacing: 5px;
+    color: #fff;
+     /* padding-bottom: 13px;  */
+}
+.list1:hover{
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(buildind3.jpg);
+}
+.list2:hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building4.jpg);
+ }
+ .list3:hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building5.jpg);
+    
+ }
+ .srv p:hover{
+    color: white;
+ }
+
+.service-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.srv h1{
+    padding: 30px;
+    letter-spacing: 5px;
+    color: gold;
+}
+.service-logo h4{
+    /* padding: 90px; */
+    padding-bottom: 13px; 
+    color: #000;
+    
+}
+.service-list h1{
+    line-height: 10px;
+    letter-spacing: 10px;
+    font-size: 50px;
+    
+}
+.service-list p{
+    line-height: 30px;
+    color: #fff;
+    padding-right: 30px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+} 
+.service-list h3{
+    padding-top: 50px;
+    color: #ffffffa9;
+    letter-spacing: 5px;
+}
+.right-side .srv ul{
+    padding-top: 50px;
+    display: flex;
+    list-style: none;
+}
+.right-side .srv ul li{
+    color:#fff;
+}
+
+.about{
+    /* margin: 90px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    
+}
+.Abt h4{
+    color:  gold;
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+   
+}
+.Abt h1{
+    font-size: 35px;
+    color:  rgb(165, 163, 163);
+    font-size: 35px;
+    padding-top: 20px;
+    letter-spacing: 8px;
+
+   
+}
+.about p{
+    color:#fff;
+    padding-top: 30px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+/* CONTACT */
+.container2{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: space-between;
+    
+    list-style: none;
+    margin: 50px;
+
+}
+.contact-logo {
+    letter-spacing: 5px;
+    color: gold ;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+.container2 ul li{
+    list-style: none;
+}
+.form input{
+    margin-right: 250px;
+    width: 200px;
+    background: rgb(20, 13, 13);
+    height: 50px;
+    width: 350px;
+    border: 1px solid gray;
+}
+textarea{
+    width: 350px;
+    background-color:rgb(20, 13, 13) ;
+}
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: gold;
+    color:#fff ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(20, 13, 13);
+    }
+    .left-side{
+        /* width: 303px; */
+        height: 100vh;
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        flex-basis: 22%;
+        background: rgb(20, 13, 13);
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px 0;
+        
+    }
+    
+    .navlinks{
+        margin-top: 70px;
+    }
+    
+    .navlinks ul li a{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+        /* margin-bottom: 5px; */
+        /* background-color: red; */
+        color: grey;
+        border-bottom: 1px solid rgb(214, 200, 200);
+       
+    }
+    .left-side .logo h1{
+        /* padding: 10px; */
+        font-size: 45px;
+        font-weight: lighter;
+        color: rgb(196, 161, 45);
+        padding: 10px 0px;
+    }
+    .left-side .logo h6{
+        letter-spacing: 12px;
+        color: grey;
+    }
+    .icons{
+        color: gray;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .right-side{
+        flex-basis: 78%;
+    }
+    .right-side .residential{
+        background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(bg2.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+    .residential{
+        display: flex;
+        justify-content: center;
+        padding-top: 55px;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+    
+    }
+    .residential h1{
+        font-size: 50px;
+        font-weight: lighter;
+        letter-spacing: 5px;
+    }
+    
+    .residential h5{
+        letter-spacing: 10px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .residential h2 a{
+        color: white;
+        font-size: large;
+        font-weight: lighter;
+        text-decoration: none;
+        
+    }
+    .right-side .direct{
+    background-color:  rgb(196, 161, 45);
+    padding: 10px 40px;
+    margin-top: 80px;
+    }
+    .right-side .srv{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px;   
+    }
+    
+    .right-side .srv h4{
+        letter-spacing: 5px;
+        color:  rgb(196, 161, 45);
+         /* padding-bottom: 13px;  */
+    }
+    .list1:hover{
+       background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(buildind3.jpg);
+       color: white;
+    }
+    .list2:hover{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building4.jpg);
+        color: white;
+     }
+     .list3:hover{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building5.jpg);
+        color: white;
+     }
+    
+    .service-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .service-logo h1{
+        padding: 30px;
+        letter-spacing: 5px;
+    }
+    .service-logo h4{
+        padding: 30px;
+        padding-bottom: 23px; 
+        
+    }
+    .service-list h1{
+        line-height: 20px;
+        letter-spacing: 10px;
+        font-size: 50px;
+        
+    }
+    .service-list p{
+        line-height: 30px;
+        /* color: #b9aaaa; */
+        padding-right: 30px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+    } 
+    .service-list h3{
+        padding-top: 50px;
+        color: rgb(196, 161, 45) ;
+        letter-spacing: 5px;
+    }
+    
+    
+    .right-side .srv h1{
+        /* color:  gray; */
+        padding-top: 30px;
+    }
+    .right-side .srv ul{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 50px;
+    }
+    .right-side .srv ul li{
+        /* color: rgb(165, 163, 163); */
+    }
+    
+    .about{
+        /* margin: 90px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 60px;
+        
+    }
+    .Abt h4{
+        color:  rgb(196, 161, 45);
+        letter-spacing: 5px;
+        font-size: 20px;
+        
+       
+    }
+    .Abt h1{
+        font-size: 35px;
+        /* color:  rgb(165, 163, 163); */
+        font-size: 35px;
+        padding-top: 20px;
+        letter-spacing: 8px;
+    
+       
+    }
+    .about p{
+        color: rgb(165, 163, 163);
+        padding-top: 30px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+}
+}
+
+
+

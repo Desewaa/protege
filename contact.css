@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(20, 13, 13) ;
+    color: #fff;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-logo {
+    margin-right: 400px;
+}
+.container ul{
+    margin-right: 300px;
+    padding-top: 45px;
+    line-height: 18px; 
+
+}
+.form input{
+    margin-right: 250px;
+    width: 200px;
+    color:black;
+    height: 50px;
+    width: 350px;
+    border: 1px solid gray;
+}
+textarea{
+    width: 350px;
+}
+button{
+    padding: 20px 90px;
+}
