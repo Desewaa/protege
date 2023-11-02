@@ -30,6 +30,7 @@
 }
 textarea{
     width: 350px;
+    resize: none;
 }
 button{
     padding: 20px 90px;
