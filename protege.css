@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Oswald:wght@200&family=Titillium+Web&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .container{
     display: flex;
@@ -101,25 +103,57 @@ background-color:  gold;
 padding: 10px 40px;
 margin-top: 80px;
 }
-.right-side .srv{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 50px;   
+.srv{
+    margin-top: 100px;
 }
-.right-side .srv h4{
+.srv .service-logo h4{
+    color: gold;
+    font-size: 2rem;
+    text-align: center;
     letter-spacing: 5px;
-    color: #fff;
-     /* padding-bottom: 13px;  */
+}
+.srv .service-logo h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 20px;
+    padding-top: 30px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-list {
+
 }
 .list1:hover{
-   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(buildind3.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(buildind3.jpg);
+ }
+ .list2:hover{
+     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building4.jpg);
+  }
+  .list3:hover{
+     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building5.jpg);
+     
+  }
+.service-list h3{
+    color: gold;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
 }
-.list2:hover{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building4.jpg);
- }
- .list3:hover{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(building5.jpg);
-    
- }
+.service-list h1{
+    color: white;
+    font-size: 3rem;
+}
+/* .right-side .srv{
+    margin: 50px;   
+}
+.right-side .service-logo h4{
+    letter-spacing: 5px;
+    color: #fff;
+}
+
  .srv p:hover{
     color: white;
  }
@@ -139,7 +173,7 @@ margin-top: 80px;
 }
 .service-logo h4{
     /* padding: 90px; */
-    padding-bottom: 13px; 
+    /* padding-bottom: 13px; 
     color: #000;
     
 }
@@ -162,15 +196,7 @@ margin-top: 80px;
     padding-top: 50px;
     color: #ffffffa9;
     letter-spacing: 5px;
-}
-.right-side .srv ul{
-    padding-top: 50px;
-    display: flex;
-    list-style: none;
-}
-.right-side .srv ul li{
-    color:#fff;
-}
+} */ */
 
 .about{
     /* margin: 90px; */
