@@ -253,6 +253,9 @@ margin-top: 80px;
 .container2 ul li{
     list-style: none;
 }
+.container2 ul li a{
+    color: #fff;
+}
 .form input{
     margin-right: 250px;
     width: 200px;
