@@ -250,6 +250,9 @@ margin-top: 80px;
 .container2 ul li{
     list-style: none;
 }
+.container2 ul li a{
+    color: #fff;
+}
 .form input{
     margin-right: 250px;
     width: 200px;
@@ -473,9 +476,6 @@ button{
         flex-direction: column;
         list-style: none;
         gap: 50px;
-    }
-    .right-side .srv ul li{
-        /* color: rgb(165, 163, 163); */
     }
     
     .about{
